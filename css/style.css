@@ -18,12 +18,9 @@ body{
 
 header{
     background-color: rgb(37, 94, 233);
-    line-height: 80px;
 }
 
-header , nav{
-    height: 80px;
-}
+
 
 ul{
     list-style: none;
@@ -39,15 +36,28 @@ div.inline ul li{
 
 nav{
     width: 80%;
-    margin: 0 auto;
+    line-height: 80px;
 }
 
 nav img{
     vertical-align: middle;
 }
 
+.container-center{
+    margin: 0 auto;
+}
+
 .inline , div.inline ul li{
     display: inline-block;
+}
+
+p.txt-last{
+    font-size: 1.5em;
+    width: 60%;
+}
+
+div.jumbotron div h1{
+    font-size: 4.3em;
 }
 
 .height{
@@ -78,6 +88,10 @@ nav img{
     text-align: center;
 }
 
+.txt-last{
+    text-align-last: center;
+}
+
 .view-width{
     width: 100vw;
 }
@@ -87,5 +101,6 @@ nav img{
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+
 
 
