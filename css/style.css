@@ -17,8 +17,7 @@ body{
 }
 
 header{
-    width: 100%;
-    background-color: blue;
+    background-color: rgb(37, 94, 233);
     line-height: 80px;
 }
 
@@ -32,6 +31,10 @@ ul{
 
 div.inline ul li{
     padding: 0px 27px;
+}
+
+.txt-color-W{
+    color:white
 }
 
 nav{
@@ -74,3 +77,15 @@ nav img{
 .txt-align-c{
     text-align: center;
 }
+
+.view-width{
+    width: 100vw;
+}
+
+.jambotron{
+    height: 495px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+
