@@ -39,7 +39,7 @@ nav{
     line-height: 80px;
 }
 
-nav img{
+nav img , div.jambotron div{
     vertical-align: middle;
 }
 
@@ -51,12 +51,18 @@ nav img{
     display: inline-block;
 }
 
-p.txt-last{
-    font-size: 1.5em;
-    width: 60%;
+div.jambotron div.piece-width-M{
+    position: absolute;
+    left:25%;
+    top: 16%;
 }
 
-div.jumbotron div h1{
+div.jambotron p{
+    font-size: 1.5em;
+    margin-top: 5%;
+}
+
+div.jambotron h1{
     font-size: 4.3em;
 }
 
@@ -100,6 +106,7 @@ div.jumbotron div h1{
     height: 495px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    position: relative;
 }
 
 
