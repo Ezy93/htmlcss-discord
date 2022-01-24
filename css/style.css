@@ -16,3 +16,61 @@ body{
     font-family: 'Whitney', sans-serif;
 }
 
+header{
+    width: 100%;
+    background-color: blue;
+    line-height: 80px;
+}
+
+header , nav{
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+}
+
+div.inline ul li{
+    padding: 0px 27px;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav img{
+    vertical-align: middle;
+}
+
+.inline , div.inline ul li{
+    display: inline-block;
+}
+
+.height{
+    height: 100%;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.piece-width-m{
+    width: 25%;
+}
+
+.piece-width-M{
+    width: 50%;
+}
+
+.txt-align-r{
+    text-align: right;
+}
+
+.txt-align-c{
+    text-align: center;
+}
