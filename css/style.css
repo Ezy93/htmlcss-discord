@@ -5,3 +5,49 @@
     margin: 0;
     padding: 0;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
+header{
+    width: 100% ;
+    background-color: rgb(49, 97, 224);
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+header nav{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+nav
+
+.float-left{
+    float: left;
+}
+
+
+.float-right{
+    float: right;
+}
+
+.vertical{
+    vertical-align: middle;
+    display: inline-block;
+}
+
